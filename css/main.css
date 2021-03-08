@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+
+div{
+	border-radius: 5px 5px 10px 10px;
+	-webkit-border-radius: 5px 5px 10px 10px;
+	-moz-border-radius: 5px 5px 10px 10px;
+	-o-border-radius: 5px 5px 10px 10px;
+	color: #000000;
+}
+
+quitar-float{
+	float: none;
+}
+
+section{
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px 0;
+
+}
+
+.home{
+	flex-wrap: wrap;
+}
+
+.in-flex{
+	min-width: 250px;
+}
+
+
+.in-flex div{
+}
+
+.retraso-1{
+	-webkit-animation-delay:1s;
+	-moz-animation-delay:1s;
+	animation-delay: 1s;
+}
+
+.img{
+	max-width: 250px;
+}
+
+.espacio-arriba{ 
+	margin-top: 50px;
+ }
+
+ .espacio-derecha{
+ 	margin-right: 1em;
+ }
+
+ .espacio-izquierda{
+ 	margin-left: 1em;
+ }
+
+ .lobster {
+ 	font-family: 'Lobster', cursive;
+ }
+
+ .bebas-neue{
+ 	font-family: 'Bebas Neue', cursive;
+ }
+
+ .roboto{
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+.hammersmith-one{
+ 	font-family: 'Hammersmith One', sans-serif;
+ }
+
+ .grande{
+ 	font-size: 6em;
+ 	}
+
+ UL.col4 LI{
+padding-right: 2px;
+display: inline;
+padding-left: : 2px;
+float: left;
+padding-bottom: 2px;
+width: 20%;
+padding-top: 2px;
+}
+
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+ .no-lista{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+ .no-lista li{
+ 	list-style-type: none;
+ }
+
+ .padding-largo{
+ 	padding: 5px;
+ }
+
+ .se-gris{
+ 	background-color: #eee;
+ }
+
+ a,.azul{
+ 	color: #009FFF;
+ }
+
+ .azul-verdoso{
+ 	color: #00B266
+ }
+
+ .azul{
+ 	color: #43CCAE
+ }
+
+.negro{
+	color: #000000
+}
+
+ .morado{ 
+ color: #672A87
+ }
+
+ .rojo-anaranjado{
+ 	color: #AD2A10
+ }
+
+ .lila{
+ 	color: #7B4ED4
+ }
+
+ .verde-bajo{
+ 	color: #87FF0F
+ }
+
+ .blanco{
+ 	color: #FFFFFF
+ }
+
+ .gris{
+ 	color: #45473C
+ }
+
+ a{
+ 	color: #009FFF
+ }
+
+ .section{
+ 	background-color: #fff;
+ 	padding: 15px;
+ 	margin-bottom: 10px;
+ 	border-radius: 10px;
+ }
+
+ .submit{
+ 	background-color: #3fb6b2;
+ 	padding: 12px 45px;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ 	color: #ffffff;
+ 	border: none;
+ 	outline: none;
+ 	margin: 0;
+ 	font-weight: bold;
+ }
